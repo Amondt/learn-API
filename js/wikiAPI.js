@@ -11,6 +11,8 @@ window.onload = function () {
         e.preventDefault()
         aideText.textContent = ''
     })
+
+    // Event keypress enter
     text.addEventListener('keypress', function(e) {
         if (e.keyCode === 13) {
             e.preventDefault()
@@ -64,7 +66,7 @@ window.onload = function () {
                 part.appendChild(description)
                 part.appendChild(wiki)
             }
-
+            text.value = ''
         } else {
             console.log('status de la rep: %s (%d)', req.status, req.statusText)
         }
