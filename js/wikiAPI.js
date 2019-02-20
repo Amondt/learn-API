@@ -11,6 +11,13 @@ window.onload = function () {
         e.preventDefault()
         aideText.textContent = ''
     })
+    text.addEventListener('keypress', function(e) {
+        if (e.keyCode === 13) {
+            e.preventDefault()
+            document.querySelector('#wikiBtn').click()
+            text.value = ''
+        }
+    })
 
     // Event search click
     document.querySelector('#wikiBtn').addEventListener('click', function(e) {
