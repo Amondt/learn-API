@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 .buttons {
@@ -23,7 +23,7 @@ body {
   position: relative;
   width: 15%;
   display: block;
-  margin: 40px auto;
+  margin: 100px auto 40px auto;
 }
 
 main {
@@ -112,12 +112,23 @@ p {
     margin:  auto;
     text-align: center;
     color: #fefefe;
+    font-size: 1.2em;
   }
 }
 
 input {
   margin: 0.2rem;
   padding: 0.2rem;
+}
+
+#wikiBtn {
+  padding: 8px 14px;
+  width: 300px;
+}
+
+#text {
+  padding: 8px 14px;
+  width: 300px;
 }
 
 #aideText {
