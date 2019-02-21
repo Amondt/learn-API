@@ -41,7 +41,9 @@ h1 {
 
 #iframe {
   width: 100%;
-  height: 100vh;
+  height: 97vh;
+  overflow: auto;
+  border: none;
 }
 
 .promo {
@@ -91,8 +93,22 @@ p {
   }
 }
 #wikiSearch {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 2rem;
+}
+
+#showSearch {
+  background: #34495c;
+  width: 100%;
+  height: 3vh;
+  display: none;
+}
+#showSearch p {
+  margin: auto;
+  text-align: center;
+  color: #fefefe;
 }
 
 input {
@@ -101,13 +117,10 @@ input {
 }
 
 #aideText {
-  position: absolute;
+  position: relative;
+  display: block;
   margin: 0 auto;
-  height: 0vh;
-  top: 30vh;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  height: 20px;
 }
 
 .result {
