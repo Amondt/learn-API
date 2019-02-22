@@ -15,10 +15,6 @@ button {
   margin: 0.5em;
 }
 
-body {
-  overflow: hidden;
-}
-
 #logo {
   position: relative;
   width: 15%;
